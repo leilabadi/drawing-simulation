@@ -4,7 +4,7 @@ public class Square : Widget
 {
     public int Width { get; }
 
-    public Square(Location location, int width) : base(location)
+    public Square(int x, int y, int width) : base(x, y)
     {
         Width = width;
     }

@@ -4,7 +4,7 @@ public class Circle : Widget
 {
     public int Diameter { get; }
 
-    public Circle(Location location, int diameter) : base(location)
+    public Circle(int x, int y, int diameter) : base(x, y)
     {
         Diameter = diameter;
     }

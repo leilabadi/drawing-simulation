@@ -4,8 +4,8 @@ public abstract class Widget
 {
     public Location Location { get; }
 
-    public Widget(Location location)
+    public Widget(int x, int y)
     {
-        Location = location;
+        Location = new Location(x, y);
     }
 }
