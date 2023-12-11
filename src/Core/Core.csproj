@@ -8,12 +8,4 @@
     <AssemblyName>DrawingSimulation.$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Application\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Using Include="System.Drawing" />
-  </ItemGroup>
-
 </Project>
