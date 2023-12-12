@@ -6,6 +6,8 @@ public class Textbox : Rectangle
 
     public Textbox(int x, int y, int width, int height, string text) : base(x, y, width, height)
     {
+        ArgumentException.ThrowIfNullOrWhiteSpace(text);
+
         Text = text;
     }
 }
