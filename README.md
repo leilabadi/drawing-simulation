@@ -1,4 +1,4 @@
-# Drawing Package Simulation
+# Drawing Simulation
 
 ## Code Excercise
 This Visual Studio Console application demonstrates SOLID principles by simulating a drawing package. The application supports 5 drawing primitives (widgets):
